@@ -1,7 +1,7 @@
 const $c = document.querySelector("canvas");
 const ctx = $c.getContext(`2d`);
 const menuAdd = document.querySelector('#menuAdd');
-const product = ["햄버거", "순대국", "정식당", "중국집", "구내식당"];
+const product = ["어비스", "선셋", "로터스", "프랙처", ""];
 const colors = [];
 
 const newMake = () => {
@@ -79,4 +79,6 @@ function add(){
   }
 }
 
+fucntion sub(){
+if(menuSub.value != undefined &&  menuSub 
 newMake();
